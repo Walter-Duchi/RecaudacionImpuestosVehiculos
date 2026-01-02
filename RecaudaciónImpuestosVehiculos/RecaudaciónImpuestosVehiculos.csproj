@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>imagenes\Icono.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="imagenes\Icono.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="itext7" Version="8.0.3" />
